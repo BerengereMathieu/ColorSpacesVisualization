@@ -210,7 +210,7 @@ void ColorspaceDisplayer::createHelpGui(){
         helpPanel.add(F4Label.setup("F4 ","AC1C2 color space "));
         helpPanel.add(F5Label.setup("F5 ","YC1C2 color space "));
         helpPanel.add(F6Label.setup("F6 ","HSI color space "));
-        helpPanel.add(F7Label.setup("F7 ","A1A2A color space "));
+        helpPanel.add(F7Label.setup("F7 ","A1A2A3 color space "));
         helpPanel.add(F8Label.setup("F8 ","H1H2H3 color space "));
         helpPanel.add(EnterLabel.setup("ENTER ","global view of color space (default)"));
         helpPanel.add(iLabel.setup("i ","display colors of an image"));
