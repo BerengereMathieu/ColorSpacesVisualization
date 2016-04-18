@@ -16,9 +16,9 @@ namespace cs{
  * Y in [0;255]
  * Z in [0;301.41]
  *
- * getC1 : l component
- * getC2 : a component
- * getC3 : b component
+ * getC1 : X component
+ * getC2 : Y component
+ * getC3 : Z component
  */
 class XYZ : public ColorspaceInterface{
 public:
