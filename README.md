@@ -17,6 +17,7 @@ Software to vizualize different color spaces
 # Usage
 
 * Show / Hide help : h or H
+* Show / Hide axis : a or A
 * Display XYZ color space : F1
 * Display LUV color space : F2
 * Display LAB color space : F3
@@ -27,3 +28,15 @@ Software to vizualize different color spaces
 * Display H1H2H3 color space : F8
 * Display color in a selected image : i or I
 * Return to default display mode : ENTER
+
+# Examples
+
+## Full color space view 
+
+![alt tag](https://raw.githubusercontent.com/BerengereMathieu/ColorSpacesVisualization/master/ac1c2.png)
+
+![alt tag](https://raw.githubusercontent.com/BerengereMathieu/ColorSpacesVisualization/master/xyz.png)
+
+## Image view of Franz Mark painting: "Blue Black Fox"
+
+![alt tag](https://raw.githubusercontent.com/BerengereMathieu/ColorSpacesVisualization/master/Marc-blue-black_fox_luv.jpg)
