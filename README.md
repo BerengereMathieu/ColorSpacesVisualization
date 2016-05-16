@@ -1,12 +1,12 @@
-# ColorSpacesVisualization
+# VASCO 
 Software to vizualize different color spaces
 
-# Dependencies 
+## Dependencies 
 
  * use openFrameworks open source C++ toolkit
  * project edited with QT
 
-# Install
+## Install
 
 * Download source code
 * Paste the main folder ("ColorSpaces") in "myApps" openframework directory
@@ -14,7 +14,7 @@ Software to vizualize different color spaces
 
 [How to use openFrameworks with QtCreator](http://openframeworks.cc/setup/qtcreator/) 
 
-# Usage
+## Usage
 
 * Show / Hide help : h or H
 * Show / Hide axis : a or A
@@ -29,14 +29,14 @@ Software to vizualize different color spaces
 * Display color in a selected image : i or I
 * Return to default display mode : ENTER
 
-# Examples
+## Examples
 
-## Full color space view 
+### Full color space view 
 
 ![alt tag](https://raw.githubusercontent.com/BerengereMathieu/ColorSpacesVisualization/master/ac1c2.png)
 
 ![alt tag](https://raw.githubusercontent.com/BerengereMathieu/ColorSpacesVisualization/master/xyz.png)
 
-## Image view of Franz Mark painting: "Blue Black Fox"
+### Image view of Franz Mark painting: "Blue Black Fox"
 
 ![alt tag](https://raw.githubusercontent.com/BerengereMathieu/ColorSpacesVisualization/master/Marc-blue-black_fox_luv.jpg)
