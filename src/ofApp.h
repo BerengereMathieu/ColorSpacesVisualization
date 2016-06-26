@@ -3,6 +3,7 @@
 #include "ofMain.h"
 #include "ofxGui.h"
 #include "colorspace/colorspaceinterface.h"
+#include "ofxSystemUtils.h"
 
 enum DATAVIZ_MODE{SPARSE_CS,IMAGE};
 
@@ -55,7 +56,7 @@ private:
     /**
      * @brief save screenshot
      */
-    void save() const;
+    void save();
     /**
      * @brief getCoordinates convert color from rgb to selected color space
      * and give it a position according its 3 channels in this color space

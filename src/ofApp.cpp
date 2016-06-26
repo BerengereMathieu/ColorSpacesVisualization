@@ -1,4 +1,4 @@
-﻿#include "ofApp.h"
+#include "ofApp.h"
 #include "colorspace/xyz.h"
 #include "colorspace/luv.h"
 #include "colorspace/lab.h"
@@ -7,8 +7,6 @@
 #include "colorspace/hsi.h"
 #include "colorspace/i1i2i3.h"
 #include "colorspace/h1h2h3.h"
-
-
 
 
 
@@ -33,7 +31,7 @@ void ColorspaceDisplayer::setup(){
     showAxis=false;
 
     showHelp=true;
-    ofSetBackgroundColor(128);
+    ofSetBackgroundColor(0);
 
     generateSparseColorSpace();
     createHelpGui();
@@ -157,13 +155,13 @@ void ColorspaceDisplayer::draw(){
     cam.end();
 }
 
-void ColorspaceDisplayer::save() const{
-
-    ofFileDialogResult saveDialog= ofSystemSaveDialog("Save","Save");
+void ColorspaceDisplayer::save() {
+    
+    ofFileDialogResult saveDialog= ofxSystemSaveDialog("Save","Save");
     if(saveDialog.bSuccess){
         ofSaveScreen(saveDialog.getPath());
 
-    }
+   }
 }
 void ColorspaceDisplayer::updateDisplay(){
     switch (mode) {
@@ -181,7 +179,7 @@ void ColorspaceDisplayer::keyPressed(int key){
     if(key=='s' ||key== 'S') {
         save();
     }else if(key=='i' || key=='I'){
-        ofFileDialogResult saveDialog= ofSystemSaveDialog("Load","Load");
+        ofFileDialogResult saveDialog= ofxSystemSaveDialog("Load");
         if(saveDialog.bSuccess){
             imPath=saveDialog.getPath();
             mode=IMAGE;
